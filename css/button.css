@@ -1,0 +1,17 @@
+.button {
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.button--active {
+  text-decoration: none;
+}
+
+.button--inactive {
+  text-decoration: none;
+  pointer-events: none;
+  border: none;
+}
