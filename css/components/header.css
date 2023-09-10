@@ -26,7 +26,7 @@
 }
 
 /* Search */
-.search {
+.header .search {
   display: none;
 }
 
@@ -45,7 +45,7 @@
     margin-left: 16px;
   }
 
-  .search {
+  .header .search {
     display: flex;
   }
 }
