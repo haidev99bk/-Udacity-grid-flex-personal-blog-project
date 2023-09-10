@@ -1,0 +1,21 @@
+/* Layout */
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr 40px;
+  grid-template-areas:
+    "hd "
+    "main "
+    "ft ";
+}
+
+/* Main */
+.blog-main {
+  grid-area: main;
+  display: flex;
+}
+
+/* Footer */
+.footer {
+  grid-area: ft;
+}

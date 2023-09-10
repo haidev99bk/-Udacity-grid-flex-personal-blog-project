@@ -1,0 +1,9 @@
+/* Footer */
+.footer {
+  grid-area: ft;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+  color: #6427a8;
+}

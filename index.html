@@ -3,18 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <img src="./images/logo.png" alt="" class="header__logo" />
+        <div class="header__logo-container">
+          <img src="./images/logo.png" alt="" class="header__logo" />
+        </div>
         <nav class="header__nav">
-          <a class="button button--inactive" href="./index.html">HOME</a>
-          <a class="button button--active" href="./index.html">POST</a>
+          <a class="button button--inactive" href="./index.html">HOME PAGE</a>
+          <a class="button button--active" href="./pages/post.html"
+            >BLOG POST</a
+          >
         </nav>
+        <div class="search">
+          <span class="material-symbols-outlined search__icon"> search </span>
+          <input class="search__input" type="text" placeholder="Search" />
+        </div>
       </header>
+
+      <main class="main">
+        <div class="blog-card">
+          <img src="./images/team_work.png" alt="" class="blog-card__image" />
+          <div class="blog-card__content">
+            <h2 class="blog-card__title">Lorem ipsum dolor</h2>
+            <h4 class="blog-card__date">Sep 10, 2023</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur ut sed ducimus neque, distinctio dolore repellat quis
+              quam animi debitis tempora placeat nobis sapiente corrupti! Culpa
+              similique ducimus labore repellendus!
+            </p>
+            <a href="./pages/post.html" class="blog-card__button">Read More</a>
+          </div>
+        </div>
+        <div class="blog-card">
+          <img src="./images/gather.png" alt="" class="blog-card__image" />
+          <div class="blog-card__content">
+            <h2 class="blog-card__title">Lorem ipsum dolor</h2>
+            <h4 class="blog-card__date">Sep 6, 2023</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur ut sed ducimus neque, distinctio dolore repellat quis
+              quam animi debitis tempora placeat nobis sapiente corrupti! Culpa
+              similique ducimus labore repellendus!
+            </p>
+            <a href="./pages/post.html" class="blog-card__button">Read More</a>
+          </div>
+        </div>
+      </main>
+
+      <sidebar class="latest-posts">
+        <h2 class="latest-posts__header">Latest posts</h2>
+        <ol class="latest-posts__list">
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Lorem ipsum dolor</a>
+          </li>
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Ipsa velit deserunt laudantium</a>
+          </li>
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Eos possimus optio aute</a>
+          </li>
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Amet consectetur, adipisicing </a>
+          </li>
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Ipsum dolor sit amet </a>
+          </li>
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Reiciendis eos possimus opti</a>
+          </li>
+          <li class="latest-posts__item">
+            <a href="./pages/post.html">Laboriosam hic minus, expedita </a>
+          </li>
+        </ol>
+      </sidebar>
+
+      <footer class="footer">
+        <p>Copyright 2023 by HaiDev99BK</p>
+      </footer>
     </div>
   </body>
 </html>

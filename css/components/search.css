@@ -1,0 +1,19 @@
+.search {
+  border: 1px solid #6427a8;
+  border-radius: 8px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.search__icon {
+  color: #6427a8;
+  margin-right: 2px;
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: "Poppins";
+}
