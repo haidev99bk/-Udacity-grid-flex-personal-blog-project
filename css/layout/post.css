@@ -63,7 +63,6 @@
   object-fit: cover;
   width: 240px;
   height: 240px;
-  background-color: red;
   border-radius: 240px;
   border: 8px solid lightskyblue;
 }
